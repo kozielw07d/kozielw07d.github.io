@@ -1,60 +1,68 @@
+/* Resetowanie domyślnych stylów dla spójności między przeglądarkami */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif; /* Nowoczesna czcionka dla lepszej czytelności */
 }
 
+/* Ustawienia dla całego ciała strony */
 body {
-    background-color: #1e1e2f;
-    color: #fff;
-    line-height: 1.6;
+    background-color: #1e1e2f; /* Ciemne tło dla eleganckiego wyglądu */
+    color: #fff; /* Biały tekst dla kontrastu */
+    line-height: 1.6; /* Zwiększona wysokość linii dla lepszej czytelności */
     padding: 20px;
 }
 
+/* Stylizacja nagłówka */
 header {
-    background: #4a4e69;
+    background: #4a4e69; /* Odcień fioletu dla nowoczesnego wyglądu */
     color: white;
     padding: 20px;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 10px; /* Zaokrąglone rogi */
 }
 
+/* Nawigacja - lista bez stylizacji domyślnej */
 nav ul {
     list-style: none;
     padding: 0;
     display: flex;
-    justify-content: center;
-    gap: 20px;
+    justify-content: center; /* Wyśrodkowanie linków */
+    gap: 20px; /* Odstęp między linkami */
 }
 
 nav ul li {
     display: inline;
 }
 
+/* Stylizacja linków w nawigacji */
 nav ul li a {
     color: white;
     text-decoration: none;
     font-size: 18px;
     padding: 10px 15px;
-    background: #22223b;
+    background: #22223b; /* Ciemniejszy odcień dla kontrastu */
     border-radius: 5px;
-    transition: 0.3s;
+    transition: 0.3s; /* Płynne przejście koloru */
 }
 
+/* Efekt najechania na linki */
 nav ul li a:hover {
-    background: #9a8c98;
+    background: #9a8c98; /* Jaśniejszy odcień dla efektu interakcji */
 }
 
+/* Główna sekcja strony */
 main {
-    max-width: 900px;
-    margin: 30px auto;
-    background: #2a2a40;
+    max-width: 900px; /* Ograniczenie szerokości dla czytelności */
+    margin: 30px auto; /* Wyśrodkowanie treści */
+    background: #2a2a40; /* Tło treści */
     padding: 30px;
     border-radius: 15px;
-    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.1); /* Subtelny efekt cienia */
 }
 
+/* Stylizacja poszczególnych projektów */
 .project {
     background: #3e3e58;
     padding: 20px;
@@ -62,21 +70,24 @@ main {
     border-radius: 10px;
 }
 
+/* Stylizacja linków do projektów */
 .project a {
     display: inline-block;
     margin-top: 10px;
     padding: 8px 12px;
-    background: #9a8c98;
+    background: #9a8c98; /* Kontrastowy kolor dla przycisku */
     color: white;
     text-decoration: none;
     border-radius: 5px;
-    transition: 0.3s;
+    transition: 0.3s; /* Efekt przejścia */
 }
 
+/* Efekt najechania na przycisk projektu */
 .project a:hover {
     background: #c9ada7;
 }
 
+/* Stylizacja stopki */
 footer {
     text-align: center;
     margin-top: 30px;
