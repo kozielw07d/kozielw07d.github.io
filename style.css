@@ -27,7 +27,7 @@ body {
 }
 
 .info-box {
-    background-color: white; /* Białe tło ramki */
+    background-color: blue; /* Białe tło ramki */
     border: 2px solid #000; /* Czarna ramka */
     border-radius: 10px; /* Zaokrąglone rogi */
     padding: 20px;
